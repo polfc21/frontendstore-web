@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotip">
+        </a>
+    </header>
+
+    <nav class="navegacio">
+        <a class="navegacio__enllac navegacio__enllac--actiu" href="index.html">Tenda</a>
+        <a class="navegacio__enllac" href="nosaltres.html">Nosaltres</a>
+    </nav>
+
+    <main class="contenidor">
+        <h1>React JS</h1>
+
+        <div class="camiseta">
+            <img class="camiseta__imatge" src="img/3.jpg" alt="Imatge del producte">
+
+            <div class="camiseta__contingut">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna felis, hendrerit quis ultricies a, semper a orci. 
+                    Proin lacus augue, volutpat at vestibulum ut, aliquam eget magna. Donec tincidunt porta justo id placerat. Aliquam lobortis porttitor erat, id iaculis erat scelerisque in. 
+                </p>
+
+                <form class="formulari">
+                    <select class="formulari__camp">
+                        <option disabled selected>>--Seleccionar talla--<</option>
+                        <option>Petita</option>
+                        <option>Mitjana</option>
+                        <option>Gran</option>
+                    </select>
+                    <input class="formulari__camp" type="number" placeholder="Quantitat" min="1">
+                    <input class="formulari__submit" type="submit" value="Agregar al carret">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">FrontEnd Store - Tots els drets reservats 2021.</p>
+    </footer>
+</body>
+</html>
